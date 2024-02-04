@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- PAGE TITLE -->
+    <title>Portfolio | Jahir Calderón: Ingeniero de Sistemas e Informatica</title>
+	<!-- MAKE IT RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="author" content="Ing. Ignacio Zanotti">
+    <meta name="copyright" content="Ing. Ignacio Zanotti">
+    <meta name="keywords" content="Jahir Calderon, Ingeniero de Sistemas, Informatica">
+	<meta name="Language" content="es" />
+
+    <!-- STYLESHEETS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+    <link href="css/options.css" rel="stylesheet" media="screen">
+    <link href="css/responsive.css" rel="stylesheet" media="screen">
+    <link href="poty.css" rel="stylesheet" media="screen">
+	
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:900,300,400,200,800' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/svg" href="images/logo-jc.svg" />
+</head>
+  <!-- START BODY -->
+  <body>
+
+  	<div id="page">
+	  	<!-- START HEADER -->
+	  	<header id="header" class="small with-separation-bottom">
+			<!-- POINTER ANIMATED -->
+			<canvas id="header-canvas"></canvas>
+			<!-- TOP NAVIGATION -->
+			<div id="top-navigation">
+			  <ul class="animate-me fadeInDown" data-wow-duration="1.2s">
+				  <li class="menu-item">
+					  <i class="fa fa-envelope"></i> jahircalderonsobrado@gmail.com
+				  </li>
+				  <li class="menu-item">
+					  <span class="navigation-social"> Redes Sociales</span> 
+					  <a href="https://www.linkedin.com/in/jahir-calderon-sobrado-2448972b1"  target="_blank"><i class="fa fa-linkedin"></i></a>
+					  <a href="https://twitter.com/JahirCalderonS" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				  </li>
+			  </ul>
+		  	</div>
+		  <!-- MOBILE NAVIGATION -->
+			<nav id="navigation-mobile"></nav>
+			<!-- MAIN MENU -->
+			<nav id="navigation">
+				<!-- DISPLAY MOBILE MENU -->
+				<a href="#" id="show-mobile-menu"><i class="fa fa-bars"></i></a>
+				<!-- CLOSE MOBILE MENU -->
+				<a href="#" id="close-navigation-mobile"><i class="fa fa-long-arrow-left"></i></a>
+				
+				<ul id="left-navigation" class="animate-me fadeInLeftBig">
+					<li id="inicio" class="menu-item">
+						<a href="index.html" data-description="Primero lo primero">
+						  	<div>Inicio</div>
+						  	<div class="subte">Primero lo primero</div>
+					  	</a>
+					</li>
+				  	<li id="acercade" class="menu-item">
+					  	<a href="acercade.html" data-description="Formación Académica y Más">
+						  	<div>Acerca de</div>
+						  	<div class="subte">Formación Académica y Más</div>
+					  	</a>
+				  	</li>
+				</ul>
+			  	<div id="logo-navigation" class="zetas">
+					<a href="index.html">
+						<div class="art-headerobject"></div>
+					</a>
+					<div class="verde"></div>
+					<div class="violeta"></div>
+					<div class="rosa"></div>
+					<div class="amarillo"></div>
+					<div class="art-logo">
+					</div>
+				</div>
+
+			  <ul id="right-navigation" class="animate-me fadeInRightBig">
+				  <li id="portfolio" class="menu-item">
+					  <a href="portfolio.html" data-description="Proyectos y Clientes">
+						<div>Portfolio</div>
+						<div class="subte">Proyectos</div>
+					</a>
+				  </li>
+				  </li>
+				  <li id="contacto" class="menu-item"><a href="contacto.html" data-description="Charlemos un poco"><div>Contacto</div><div class="subte">Comuniquémosnos</div></a></li>
+			  </ul>
+			</nav>
+			<!-- SHADOW -->
+			<div id="shade"></div>
+
+			<!-- HEADER SLIDER -->
+			<div class="flexslider" id="header-slider">
+			  	<ul class="slides">
+					<li><img src="images/backgrounds/oid.jpg" alt="OidMortales"></li>
+		  			<li><img src="images/backgrounds/arduino.jpg" alt="Arduino"></li>
+		  			<li><img src="images/backgrounds/paris.jpg" alt="Heladería París"></li>
+				</ul>	
+			</div>
+		</header>
+	  	<!-- END HEADER -->
+	  	
+	  	<!-- START MAIN CONTAINER -->
+	  	<div class="main-container">
+	  		<div class="container">
+	  			<!--PORTFOLIO -->
+	  			<h2 class="with-breaker animate-me fadeInUp">
+		  			Portfolio
+					<!--<div><img style="    height: 3em;"src="images/ojo.gif" alt="SLider Image"></div>-->
+					<span> proyectos</span>
+	  			</h2>
+	  			<div id="portfolio-filters" class="animate-me fadeIn">
+	  				<button class="btn btn-default" data-filter="*"><i class="fa fa-tags"></i> Todos</button>
+					<button class="btn btn-default" data-filter=".portfolio-web-design" style="background: #18AD9B;"><i class="fa fa-tag"></i> Webs</button>
+					<button class="btn btn-default" data-filter=".portfolio-sistemas"  style="background: #E65E2D;"><i class="fa fa-tag"></i> Sistemas</button>
+					<button class="btn btn-default" data-filter=".portfolio-publicidad"   style="background: #C5AD00;"><i class="fa fa-tag"></i> Publicidad</button>
+					<button class="btn btn-default" data-filter=".portfolio-diseno-grafico"   style="background: #E62D4F;"><i class="fa fa-tag"></i> Diseño Gráfico</button>
+					<button class="btn btn-default" data-filter=".portfolio-endesarrollo"   style="background: #2D66E6;"><i class="fa fa-tag"></i> En Proceso</button>
+	  			</div>
+	  		</div>
+	  		<div id="portfolio-container" class="with-separation-bottom with-separation-top">
+				<!--PORTFOLIO ITEM -->
+				<figure class="portfolio-item effect-sadie portfolio-web-design portfolio-sistemas portfolio-publicidad portfolio-diseno-grafico portfolio-asesoramiento">
+			        <img src="images/portfolio/paris800600.jpg" alt="Heladería París"/>
+			        <figcaption>
+			            <h4>Heladería Paris</h4>
+						<h5>Clásica Heladería de Bahía Blanca</h5>
+			            <p>Sistema de Pedidos Online | Sitio Web | Redes Sociales | Publicidad Online</p>
+			            <a href="#">Ver Más</a>
+			        </figcaption>         
+			    </figure>	
+				<!--PORTFOLIO ITEM -->
+	  			<figure class="portfolio-item effect-sadie portfolio-web-design">
+			        <img src="images/portfolio/tributoIpad800600.jpg" alt="Tributo Resto Bar"/>
+			        <figcaption>
+			            <h4>Tributo</h4>
+			            <h5>Resto | Bar</h5>
+			            <p>Diseño y Desarrollo Web | Identidad Virtual</p>
+						<a href="#">Ver Más</a>
+			        </figcaption>         
+			    </figure>
+				<!--PORTFOLIO ITEM -->
+	  			<figure class="portfolio-item effect-sadie portfolio-web-design">
+			        <img src="images/portfolio/fournierMobile800600.jpg" alt="Rastreador Fournier"/>
+			        <figcaption>
+			            <h4>Rastreador Fournier</h4>
+			            <h5>Transporte de pasajeros</h5>
+			            <p>Diseño y Desarrollo Web | Ingeniería de la Información</p>
+						<a href="#">Ver Más</a>
+			        </figcaption>         
+			    </figure>
+				<!--PORTFOLIO ITEM -->
+	  			<figure class="portfolio-item effect-sadie portfolio-sistemas">
+			        <img src="images/portfolio/metalmar800600.jpg" alt="Metalmar"/>
+			        <figcaption>
+			            <h4>Metalmar</h4>
+						<h5>Fábrica de Aberturas de Aluminio, Chapa, PVC y Madera</h5>
+			            <p>Software a Medida: generación de presupuestos</p>
+			            <a href="#">Ver Más</a>
+			        </figcaption>         
+			    </figure>
+				<!--PORTFOLIO ITEM -->
+				<figure class="portfolio-item effect-sadie portfolio-web-design portfolio-diseno-grafico portfolio-asesoramiento">
+			        <img src="images/portfolio/cambaiveco800600.jpg" alt="Camba Iveco"/>
+			        <figcaption>
+			            <h4>Camba Iveco</h4>
+			            <h5>Concesionario Oficial IVECO</h5>
+			            <p>Diseño y Desarrollo Web | Email Marketing</p>
+			            <a href="cambaiveco.html">Ver Más</a>
+			        </figcaption>         
+			    </figure>
+			    <!--PORTFOLIO ITEM -->
+	  			<figure class="portfolio-item effect-sadie portfolio-web-design portfolio-sistemas portfolio-diseno-grafico portfolio-asesoramiento">
+			        <img src="images/portfolio/penna800600.jpg" alt="Hospital Penna"/>
+			        <figcaption>
+			            <h4>Hospital Penna</h4>
+						<h5>Hospital Interzonal General Dr José Penna</h5>
+			            <p>Sitio Web | Gestor de Contenidos</p>
+			            <a href="#">Ver Más</a>
+			        </figcaption>         
+			    </figure>
+	  		</div>
+	  	</div>
+	  	<!-- END MAIN CONTAINER -->
+	  	
+		<!-- START FOOTER -->
+		<footer id="footer" class="with-separation-top">
+			<aside id="widgets" class="container">
+				<div class="row">
+					<!-- WIDGET -->
+					<div class="col-md-4 widget animate-me fadeInLeft">
+						<img src="images/logo-jc-ligth.svg" id="footer-logo" alt="Logo footer">
+					</div>
+					<!-- WIDGET -->
+					<div class="col-md-4 widget animate-me fadeInUp">
+						<h4>Navegación</h4>
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="acercade.html">Acerca de</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</div>
+					<!-- WIDGET -->
+					<div class="col-md-4 widget animate-me fadeInRight">
+						<h4>Redes Sociales</h4>
+						<ul class="widget-social">
+						<li><a href="https://www.linkedin.com/in/jahir-calderon-sobrado-2448972b1"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://twitter.com/JahirCalderonS" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+						</ul>
+						<a href="contacto.html" class="btn btn-default"><i class="fa fa-envelope-o"></i> Contacto</a>
+					</div>
+				</div>
+			</aside>
+			<div id="copyright" class="">
+				<div class="container">
+					<p>&#169; 2024 Todos los derechos reservados <a href="http://www.ignaciozanotti.com.ar/">ING. IGNACIO ZANOTTI</a>.</p>
+				</div>
+			</div>
+		</footer>
+	  	<!-- END FOOTER -->	  	
+	  	<!-- SCROLL TOP -->
+	  	<a href="#" id="scroll-top" class="fadeInRight animate-me"><i class="fa fa-angle-double-up"></i></a>
+  	</div>
+
+    <!-- SCRIPTS -->
+	<script src="https://kit.fontawesome.com/51e0a40de0.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>
